@@ -40,6 +40,7 @@ struct Sidebar: View {
                     Text(auth.user?.displayName ?? "User")
                         .font(.headline)
                         .fontWeight(.semibold)
+                        .foregroundStyle(.black)
                     
                     Text(auth.user?.email ?? "")
                         .font(.caption)
